@@ -20,14 +20,14 @@ const Home: NextPage = () => {
 	
 	console.log("excg")
 	function startEvent() {
-if((!info && !reqStart) && process.env.NEXT_PUBLIC_PASSWORDS) {
+if((!info && !reqStart)) {
 		
 		console.log("start")
 			setReqStart(true);
 		fetch("/api/generateBlog", {
-		headers: {
-			Authorization: process.env.NEXT_PUBLIC_PASSWORDS.split(":")[0]
-		}	
+		// headers: {
+		// 	Authorization: process.env.NEXT_PUBLIC_PASSWORDS.split(":")[0]
+		// }	
 		}).then(async r => {
    const txt = await r.text();
 				console.log("request tzt", txt)
