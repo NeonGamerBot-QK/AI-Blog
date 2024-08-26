@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -28,149 +28,144 @@
   </head>
   <body>
     <noscript>
-      <META HTTP-EQUIV="refresh" CONTENT="15">
-        <style>
-          /* body {font-family: Arial, Helvetica, sans-serif;} */
-          /* The Modal (background) */
-          .my-modal {
-            display: none;
-            position: fixed; /* Stay in place */
-            z-index: 1;
-            left: 0;
-            top: 0;
-            width: 100%; /* Full width */
-            height: 100%; /* Full height */
-            overflow: auto; /* Enable scroll if needed */
-            background-color: #1e1e2e; /* Fallback color */
-            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-            -webkit-animation-name: fadeIn; /* Fade in the background */
-            -webkit-animation-duration: 0.4s;
-            animation-name: fadeIn;
-            animation-duration: 0.4s;
+      <meta http-equiv="refresh" content="15" />
+      <style>
+        /* body {font-family: Arial, Helvetica, sans-serif;} */
+        /* The Modal (background) */
+        .my-modal {
+          display: none;
+          position: fixed; /* Stay in place */
+          z-index: 1;
+          left: 0;
+          top: 0;
+          width: 100%; /* Full width */
+          height: 100%; /* Full height */
+          overflow: auto; /* Enable scroll if needed */
+          background-color: #1e1e2e; /* Fallback color */
+          background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+          -webkit-animation-name: fadeIn; /* Fade in the background */
+          -webkit-animation-duration: 0.4s;
+          animation-name: fadeIn;
+          animation-duration: 0.4s;
+        }
+
+        /* Modal Content */
+        .my-modal-content {
+          position: fixed;
+          color: #cdd6f4;
+          bottom: 0;
+          background-color: #313244;
+          width: 100%;
+          -webkit-animation-name: slideIn;
+          -webkit-animation-duration: 0.4s;
+          animation-name: slideIn;
+          animation-duration: 0.4s;
+        }
+
+        /* The Close Button */
+        .my-close {
+          color: #cba6f7;
+          float: right;
+          font-size: 28px;
+          font-weight: bold;
+        }
+
+        .my-close:hover,
+        .my-close:focus {
+          color: #f5c2e7;
+          text-decoration: none;
+          cursor: pointer;
+        }
+
+        .my-modal-header {
+          padding: 2px 16px;
+          background-image: linear-gradient(to left, #1e1e2e, #11111b);
+          /*#5cb85c */
+          color: white;
+        }
+
+        .my-modal-body {
+          padding: 2px 16px;
+        }
+
+        .my-modal-footer {
+          padding: 2px 16px;
+          /* bottom: 0; */
+          /* position: absolute; */
+          /* right: 50%; */
+          /* background-color: #5cb85c; */
+          background-repeat: repeat-x;
+          background-image: linear-gradient(to left, #1e1e2e, #11111b);
+          color: #cdd6f4;
+        }
+
+        /* Add Animation */
+        @-webkit-keyframes slideIn {
+          from {
+            bottom: -300px;
+            opacity: 0;
           }
-    
-          /* Modal Content */
-          .my-modal-content {
-            position: fixed;
-            color: #cdd6f4;
+          to {
             bottom: 0;
-            background-color: #313244;
-            width: 100%;
-            -webkit-animation-name: slideIn;
-            -webkit-animation-duration: 0.4s;
-            animation-name: slideIn;
-            animation-duration: 0.4s;
+            opacity: 1;
           }
-    
-          /* The Close Button */
-          .my-close {
-            color: #cba6f7;
-            float: right;
-            font-size: 28px;
-            font-weight: bold;
+        }
+
+        @keyframes slideIn {
+          from {
+            bottom: -300px;
+            opacity: 0;
           }
-    
-          .my-close:hover,
-          .my-close:focus {
-            color: #f5c2e7;
-            text-decoration: none;
-            cursor: pointer;
+          to {
+            bottom: 0;
+            opacity: 1;
           }
-    
-          .my-modal-header {
-            padding: 2px 16px;
-            background-image: linear-gradient(
-              to left,
-              #1e1e2e,
-              #11111b
-            );
-              /*#5cb85c */;
-            color: white;
+        }
+
+        @-webkit-keyframes fadeIn {
+          from {
+            opacity: 0;
           }
-    
-          .my-modal-body {
-            padding: 2px 16px;
+          to {
+            opacity: 1;
           }
-    
-          .my-modal-footer {
-            padding: 2px 16px;
-            /* bottom: 0; */
-            /* position: absolute; */
-            /* right: 50%; */
-            /* background-color: #5cb85c; */
-            background-repeat: repeat-x;
-            background-image: linear-gradient(
-              to left,
-              #1e1e2e,
-              #11111b
-            );
-            color: #cdd6f4;
+        }
+
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
           }
-    
-          /* Add Animation */
-          @-webkit-keyframes slideIn {
-            from {
-              bottom: -300px;
-              opacity: 0;
-            }
-            to {
-              bottom: 0;
-              opacity: 1;
-            }
+          to {
+            opacity: 1;
           }
-    
-          @keyframes slideIn {
-            from {
-              bottom: -300px;
-              opacity: 0;
-            }
-            to {
-              bottom: 0;
-              opacity: 1;
-            }
-          }
-    
-          @-webkit-keyframes fadeIn {
-            from {
-              opacity: 0;
-            }
-            to {
-              opacity: 1;
-            }
-          }
-    
-          @keyframes fadeIn {
-            from {
-              opacity: 0;
-            }
-            to {
-              opacity: 1;
-            }
-          }
-          a {
-        color: #89b4fa;
-    }
-    a:hover {
-        color: #b4befe;
-    }
-    a:visited {
-        color: #cba6f7;
-    }
-        </style>
-      <div class="my-modal-content" style="height: 100vh;">
+        }
+        a {
+          color: #89b4fa;
+        }
+        a:hover {
+          color: #b4befe;
+        }
+        a:visited {
+          color: #cba6f7;
+        }
+      </style>
+      <div class="my-modal-content" style="height: 100vh">
         <div class="my-modal-header">
           <span class="my-close"><a href="/">&times;</a> </span>
           <h2>Please enable javascript</h2>
         </div>
-        <div class="my-modal-body" style="height: 85vh;">
+        <div class="my-modal-body" style="height: 85vh">
           <p>You need to enable JavaScript to run this app.</p>
         </div>
         <div class="my-modal-footer">
-          <h3>Reload page once you have enabled javascript or click <a href="/">here</a></h3>
+          <h3>
+            Reload page once you have enabled javascript or click
+            <a href="/">here</a>
+          </h3>
         </div>
       </div>
     </noscript>
-      <!-- 
+    <!-- 
 
 
   _________   _____      _____    ___ ___ .___.____     ________      _________  ________      _____   
