@@ -1,0 +1,23 @@
+name: Generate new Article for AI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "0 0 * * 0"
+
+jobs:
+  aibuild:
+    name: Re-create AI data.
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: executing remote ssh commands using password
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /home/saahild.com/public_html/ai-blog/scripts
+            OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }} OUT_DIR=/home/saahild.com/public_html/ai-blog/ node create_blog.js

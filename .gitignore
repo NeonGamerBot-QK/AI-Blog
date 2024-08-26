@@ -24,3 +24,4 @@ yarn-error.log*
 # irregular files for git.
 public/blog.json
 public/blog.png
+test
