@@ -92,6 +92,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Built With
 
 - [![React][React.js]][React-url]
+
 * ![Tailwind CSS](https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=)
 * [![Catppuccin](https://img.shields.io/static/v1?message=Catppuccin&colorA=363a4f&colorB=f0c6c6&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Q2F0cHB1Y2NpbjwvdGl0bGU+PHBhdGggZD0iTTEyIDBBMTIgMTIgMCAwIDAgMCAxMmExMiAxMiAwIDAgMCA2LjMwMyAxMC40NzVjLjA1NC0uMzA5LjU1Ni0zLjE3Ny44MDItMy42NDEgMCAwLTUuOTQ0LTIuNzM1LTEuOTcyLTkuODYzIDAgMC0uOTUtMy43MjUtLjE3NC00LjQwMy43NzYtLjY3NyAzLjM4My45MjcgMy45MzYgMS42MTIgMCAwIDIuMDg0LS45ODMgNS4zNjUtLjIzIDAgMCAyLjI5Mi0yLjI4MSAzLjIxMy0xLjg4NC45Mi4zOTguNzIyIDMuNzAyLjYxOSAzLjk2IDAgMCA1LjYzIDUuMjMyLTEuMjQ2IDEwLjQzNyAwIDAgLjQ3NSAzLjA1OC40MzEgNC4xMjNBMTIgMTIgMCAwIDAgMjQgMTIgMTIgMTIgMCAwIDAgMTIgMFptNC4wMyA5LjFjLS44ODQgMC0xLjYuNjEtMS42IDEuMzYgMCAuMDMzIDAgLjA2NS4wMDQuMDk3YS4xNDguMTQ4IDAgMCAwIC4yNjQuMDgyYy4zMDUtLjM4Ljc5Ny0uNzEzIDEuMzUzLS43MTMuNTIgMCAuOTg1LjI5NyAxLjI5My42NDQuMDQ1LjA1MS4xMTcuMDcuMTgxLjA0NWEuMTY0LjE2NCAwIDAgMCAuMTA2LS4xNTRjMC0uNzUtLjcxOC0xLjM2MS0xLjYwMi0xLjM2MXptLTUuMjA2LjEyM2MtMS4wMSAwLTEuODMuNzExLTEuODMgMS41ODYgMCAuMDYuMDA0LjExOC4wMTIuMTc3YS4xNDcuMTQ3IDAgMCAwIC4yNjQuMDczYy4zNDYtLjQ0Ni45MjQtLjgxNSAxLjU3OC0uODE1LjU5IDAgMS4xMi4zMDcgMS40Ny42OTRhLjE5NC4xOTQgMCAwIDAgLjMzNi0uMTNjMC0uODc0LS44Mi0xLjU4NS0xLjgzLTEuNTg1em0yLjkzIDIuNTAyYy0uMDE0IDAtLjAyNS4wMS0uMDI1LjAyM3YuMDAybC4wMDEuMDAyLjAwMi0uMDAyYy4wMDUtLjAwNi4wMTUtLjAxLjAyNC0uMDEuMDA4IDAgLjAxNC4wMDUuMDIuMDFoLjAwM3YtLjAwMmMwLS4wMTItLjAxMS0uMDIzLS4wMjUtLjAyM3ptMS4yMjUuMjQ2LTEuODAxLjE2YS4xMDcuMTA3IDAgMCAwLS4wNTUuMTkzbDEuMDQxLjc2OGEuMTguMTggMCAwIDAgLjI0NC0uMDNsLjcwNS0uODMyYS4xNTguMTU4IDAgMCAwLS4xMzUtLjI2em0uOTIgMS4zMzRjLS41MDQuODY2LTEuNDU4LjI3LTEuNDU4LjI3LS42NzQgMS4wNzktMS45MTYuMzEyLTEuOTE2LjMxMi43NjggMS40NjUgMi4wMTIuMzYzIDIuMDEyLjM2MyAxLjMyNS4zNzcgMS4zNjEtLjk0NSAxLjM2MS0uOTQ1em0tMy4zODcgNS40NDFjLS40NTggMS4zODEuMzE4IDIuMjU0LjMxOCAyLjI1NC43MTYuMDAyIDEuMzYxLS44ODUgMS4zNjEtLjg4NS4xLjExMS45MDguNDA5IDEuMDcuNDE2LjE2My4wMDguMjQ2LTEuNi0uMDgxLTEuNzA3LS4zMjctLjEwNi0xLjA1Ny42NDctMS4wNTcuNjQ3LS4zOC0uMzkzLTEuNjExLS43MjUtMS42MTEtLjcyNXoiIGZpbGw9IiNjYWQzZjUiLz48L3N2Zz4=&label)](https://catppuccin.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -99,6 +100,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 ### Prerequisites
 
 Only node and an OPEN_AI key
+
 > [!TIP]
 > if you dont have an OPEN_AI key you can just use the data from [here](https://saahild.com/ai-blog/blog.json) (only for test reasons)
 
@@ -113,9 +115,9 @@ Only node and an OPEN_AI key
    ```sh
    npm install
    ```
-4. if you have an Open ai key run `public/scripts/create_blog.js` 
+4. if you have an Open ai key run `public/scripts/create_blog.js`
    ```sh
-OPENAI_API_KEY=key node  public/scripts/create_blog.js
+   OPENAI_API_KEY=key node public/scripts/create_blog.js
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
@@ -129,8 +131,8 @@ OPENAI_API_KEY=key node  public/scripts/create_blog.js
 
 ## Roadmap
 
-- [X] Image
-- [X] Main Content
+- [x] Image
+- [x] Main Content
 - [ ] built-in tts
   - [ ] Backup TTS
 
