@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# irregular files for git.
+public/blog.json
+public/blog.png
