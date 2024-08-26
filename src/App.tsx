@@ -95,7 +95,7 @@ function App() {
             <>
               <figure>
                 <img
-                  src={'.'+data.img}
+                  src={"." + data.img}
                   alt="Blog"
                   className="rounded-lg shadow-lg"
                 />
