@@ -82,7 +82,7 @@ function Countdown({ date }: { date: number }) {
 function App() {
   const [data, setData] = useState<null | Blog>(null);
   useEffect(() => {
-    fetch("/blog.json")
+    fetch("./blog.json")
       .then((res) => res.json())
       .then((d) => setData(d as Blog));
   }, []);
@@ -95,7 +95,7 @@ function App() {
             <>
               <figure>
                 <img
-                  src={data.img}
+                  src={'.'+data.img}
                   alt="Blog"
                   className="rounded-lg shadow-lg"
                 />
