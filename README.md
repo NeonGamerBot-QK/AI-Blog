@@ -35,10 +35,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Ai Blog</h3>
 
   <p align="center">
-    project_description
+    An article generated via ai
     <br />
     <a href="https://github.com/NeonGamerBot-QK/AI-Blog"><strong>Explore the docs »</strong></a>
     <br />
@@ -85,42 +85,26 @@
 
 {desc}
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `NeonGamerBot-QK`, `AI-Blog`, `twitter_handle`, `linkedin_username`, `project_title`, `project_description`
+Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `NeonGamerBot-QK`, `AI-Blog`, `twitter_handle`, `linkedin_username`, `Ai Blog`, `An article generated via ai`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
 - [![React][React.js]][React-url]
-- [![Vue][Vue.js]][Vue-url]
-- [![Angular][Angular.io]][Angular-url]
-- [![Svelte][Svelte.dev]][Svelte-url]
-- [![Laravel][Laravel.com]][Laravel-url]
-- [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-- [![JQuery][JQuery.com]][JQuery-url]
-
+* ![Tailwind CSS](https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=)
+* [![Catppuccin](https://img.shields.io/static/v1?message=Catppuccin&colorA=363a4f&colorB=f0c6c6&style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Q2F0cHB1Y2NpbjwvdGl0bGU+PHBhdGggZD0iTTEyIDBBMTIgMTIgMCAwIDAgMCAxMmExMiAxMiAwIDAgMCA2LjMwMyAxMC40NzVjLjA1NC0uMzA5LjU1Ni0zLjE3Ny44MDItMy42NDEgMCAwLTUuOTQ0LTIuNzM1LTEuOTcyLTkuODYzIDAgMC0uOTUtMy43MjUtLjE3NC00LjQwMy43NzYtLjY3NyAzLjM4My45MjcgMy45MzYgMS42MTIgMCAwIDIuMDg0LS45ODMgNS4zNjUtLjIzIDAgMCAyLjI5Mi0yLjI4MSAzLjIxMy0xLjg4NC45Mi4zOTguNzIyIDMuNzAyLjYxOSAzLjk2IDAgMCA1LjYzIDUuMjMyLTEuMjQ2IDEwLjQzNyAwIDAgLjQ3NSAzLjA1OC40MzEgNC4xMjNBMTIgMTIgMCAwIDAgMjQgMTIgMTIgMTIgMCAwIDAgMTIgMFptNC4wMyA5LjFjLS44ODQgMC0xLjYuNjEtMS42IDEuMzYgMCAuMDMzIDAgLjA2NS4wMDQuMDk3YS4xNDguMTQ4IDAgMCAwIC4yNjQuMDgyYy4zMDUtLjM4Ljc5Ny0uNzEzIDEuMzUzLS43MTMuNTIgMCAuOTg1LjI5NyAxLjI5My42NDQuMDQ1LjA1MS4xMTcuMDcuMTgxLjA0NWEuMTY0LjE2NCAwIDAgMCAuMTA2LS4xNTRjMC0uNzUtLjcxOC0xLjM2MS0xLjYwMi0xLjM2MXptLTUuMjA2LjEyM2MtMS4wMSAwLTEuODMuNzExLTEuODMgMS41ODYgMCAuMDYuMDA0LjExOC4wMTIuMTc3YS4xNDcuMTQ3IDAgMCAwIC4yNjQuMDczYy4zNDYtLjQ0Ni45MjQtLjgxNSAxLjU3OC0uODE1LjU5IDAgMS4xMi4zMDcgMS40Ny42OTRhLjE5NC4xOTQgMCAwIDAgLjMzNi0uMTNjMC0uODc0LS44Mi0xLjU4NS0xLjgzLTEuNTg1em0yLjkzIDIuNTAyYy0uMDE0IDAtLjAyNS4wMS0uMDI1LjAyM3YuMDAybC4wMDEuMDAyLjAwMi0uMDAyYy4wMDUtLjAwNi4wMTUtLjAxLjAyNC0uMDEuMDA4IDAgLjAxNC4wMDUuMDIuMDFoLjAwM3YtLjAwMmMwLS4wMTItLjAxMS0uMDIzLS4wMjUtLjAyM3ptMS4yMjUuMjQ2LTEuODAxLjE2YS4xMDcuMTA3IDAgMCAwLS4wNTUuMTkzbDEuMDQxLjc2OGEuMTguMTggMCAwIDAgLjI0NC0uMDNsLjcwNS0uODMyYS4xNTguMTU4IDAgMCAwLS4xMzUtLjI2em0uOTIgMS4zMzRjLS41MDQuODY2LTEuNDU4LjI3LTEuNDU4LjI3LS42NzQgMS4wNzktMS45MTYuMzEyLTEuOTE2LjMxMi43NjggMS40NjUgMi4wMTIuMzYzIDIuMDEyLjM2MyAxLjMyNS4zNzcgMS4zNjEtLjk0NSAxLjM2MS0uOTQ1em0tMy4zODcgNS40NDFjLS40NTggMS4zODEuMzE4IDIuMjU0LjMxOCAyLjI1NC43MTYuMDAyIDEuMzYxLS44ODUgMS4zNjEtLjg4NS4xLjExMS45MDguNDA5IDEuMDcuNDE2LjE2My4wMDguMjQ2LTEuNi0uMDgxLTEuNzA3LS4zMjctLjEwNi0xLjA1Ny42NDctMS4wNTcuNjQ3LS4zOC0uMzkzLTEuNjExLS43MjUtMS42MTEtLjcyNXoiIGZpbGw9IiNjYWQzZjUiLz48L3N2Zz4=&label)](https://catppuccin.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Only node and an OPEN_AI key
+> [!TIP]
+> if you dont have an OPEN_AI key you can just use the data from [here](https://saahild.com/ai-blog/blog.json) (only for test reasons)
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a Open API Key at [here](https://platform.openai.com/api-keys)
 2. Clone the repo
    ```sh
    git clone https://github.com/NeonGamerBot-QK/AI-Blog.git
@@ -129,9 +113,9 @@ This is an example of how to list things you need to use the software and how to
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+4. if you have an Open ai key run `public/scripts/create_blog.js` 
+   ```sh
+OPENAI_API_KEY=key node  public/scripts/create_blog.js
    ```
 5. Change git remote url to avoid accidental pushes to base project
    ```sh
@@ -141,24 +125,14 @@ This is an example of how to list things you need to use the software and how to
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-  - [ ] Nested Feature
+- [X] Image
+- [X] Main Content
+- [ ] built-in tts
+  - [ ] Backup TTS
 
 See the [open issues](https://github.com/NeonGamerBot-QK/AI-Blog/issues) for a full list of proposed features (and known issues).
 
@@ -208,10 +182,6 @@ Project Link: [https://github.com/NeonGamerBot-QK/AI-Blog](https://github.com/Ne
 <!-- ACKNOWLEDGMENTS -->
 
 ## Acknowledgments
-
-- []()
-- []()
-- []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
