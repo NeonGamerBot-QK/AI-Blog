@@ -1,11 +1,13 @@
-name: remote ssh command
+name: Deploy
 on: [push]
 
 jobs:
   build:
     name: Build
     runs-on: ubuntu-latest
-    environment: production
+    environment: 
+      name: production
+      url: https://saahild.com/ai-blog
     steps:
       - name: executing remote ssh commands using password
         uses: appleboy/ssh-action@v0.1.8

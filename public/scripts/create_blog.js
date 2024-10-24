@@ -40,8 +40,8 @@ const gpt = new openai.OpenAI({
           process.env.OUT_DIR
             ? path.resolve(process.env.OUT_DIR, "blog.png")
             : path.resolve(__dirname, "../public/blog.png"),
-          Buffer.from(abuff),
-        ),
+          Buffer.from(abuff)
+        )
       );
   }
 
@@ -51,6 +51,6 @@ const gpt = new openai.OpenAI({
     process.env.OUT_DIR
       ? path.resolve(process.env.OUT_DIR, "blog.json")
       : path.resolve(__dirname, "../public/blog.json"),
-    Buffer.from(JSON.stringify(response, null, 2)),
+    Buffer.from(JSON.stringify(response, null, 2))
   );
 })().catch(console.error);

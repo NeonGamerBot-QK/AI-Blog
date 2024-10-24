@@ -1,24 +1,12 @@
 import { formatUptime } from "@neongamerbot/utils";
 import React, { useEffect, useState } from "react";
-type Article = {
-  title: string;
-  content: string;
-};
-interface Blog {
-  title: string;
-  article: Article[];
-  topic: string;
-  tags: string[];
-  img: string;
-  created_at: number;
-  expires_at: number;
-}
+import { Blog, Article } from "./types";
 function Countdown({ date }: { date: number }) {
   const ndate = Date.now();
   const [uptime, setUptime] = useState<number[]>(
     formatUptime(Math.round((date - ndate) / 1000))
       .split(/ +/)
-      .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, ""))),
+      .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, "")))
   );
   useEffect(() => {
     const ti = setTimeout(() => {
@@ -26,7 +14,7 @@ function Countdown({ date }: { date: number }) {
       setUptime(
         formatUptime(Math.round((date - ndate) / 1000))
           .split(/ +/)
-          .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, ""))),
+          .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, "")))
       );
     }, 1000);
     return () => clearTimeout(ti);
@@ -135,7 +123,7 @@ function App() {
                   <a
                     style={{
                       textDecoration: "underline",
-                      color: "var(--blue)",
+                      color: "var(--mauve)",
                     }}
                     href="https://saahild.com"
                   >
