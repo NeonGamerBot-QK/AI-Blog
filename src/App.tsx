@@ -6,7 +6,7 @@ function Countdown({ date }: { date: number }) {
   const [uptime, setUptime] = useState<number[]>(
     formatUptime(Math.round((date - ndate) / 1000))
       .split(/ +/)
-      .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, "")))
+      .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, ""))),
   );
   useEffect(() => {
     const ti = setTimeout(() => {
@@ -14,7 +14,7 @@ function Countdown({ date }: { date: number }) {
       setUptime(
         formatUptime(Math.round((date - ndate) / 1000))
           .split(/ +/)
-          .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, "")))
+          .map((w) => parseInt(w.replaceAll(/(d|s|h|m)/g, ""))),
       );
     }, 1000);
     return () => clearTimeout(ti);
